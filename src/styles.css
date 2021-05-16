@@ -1,1 +1,188 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --fondo: #A5A5A5;
+    --boton: #2E2E2E;
+    --boton-primary: #076df3;
+    --boton-primary-hover: #003780;
+    --boton_hover: #DBDBDB;
+    --boton-hover2: #545454;
+    --fondo-navbar: #24274d;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "verdana";
+}
+
+/**
+Estilos para barra de navegacion
+*/
+.nav-bar{
+    width: 100%;
+    height: 80px;
+    background: var(--fondo-navbar);
+    position: relative;
+
+}
+.nav-btns{
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   right:80px;
+   top:20px;
+
+
+}
+.nav-btns a{
+    text-decoration: none;
+}
+.btn{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    align-self: center;
+    width: 100px;
+    height:40px;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.btn span{
+    margin-top: 8px;
+}
+
+.sg{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.btn-primary{   
+  background: var(--boton-primary);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover{
+    
+    background: var(--boton-primary-hover);
+   
+  }
+.btn-secondary{
+    background: rgba(0, 0, 0, 0);
+    color: rgb(221, 221, 221);
+    transition: all 0.3s ease-in-out;
+}
+.btn-secondary::before{
+    content: "";
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0);
+    transition: all 0.3s ease-in-out;
+    clip-path: circle(0% at 50% 50%);
+    position: absolute;
+}
+.btn-secondary:hover::before  {
+    clip-path: circle(80% at 50% 50%);
+    background:rgba(0, 0, 0, 0.438);
+    border-bottom: 2px solid white;
+    color: white;
+}
+.btn-secondary:hover{
+    color: white;
+    background: var(--boton-primary);
+}
+/**
+Estilos de pie de pagina 
+*/
+.contenedor-footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow-x: hidden;
+    display: block;
+}
+
+.footer{
+   width: 100%;
+   height: 100%;
+   background: var(--boton);   
+   position: absolute; 
+   display: flex;
+   justify-content: center;
+   color:#A5A5A5; 
+   z-index:-1;
+}
+
+.footer-primary p{
+    margin-left: 20px;
+}
+
+.footer-icons span{
+    margin-left: 30px;
+}
+
+.footer-icons i:hover{
+    color:#0084ff;
+}
+.footer-icons{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.footer-fondo{
+    width: 100%;
+    height: 40px;
+    background: var(--boton-hover2);
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: initial;
+    font-size: 10px;
+    color: white;
+   
+}
+.footer-fondo p{
+    margin-left: 80px;
+    padding-top: 10px;
+}
+
+.contenedor-tema{
+    width: 100%;
+    height: auto;
+    text-align:justify;
+    
+}
+
+/**Desarrollo temas*/
+.contenedor-title{
+    
+    border-bottom: 1px solid gray;
+    text-align: start;
+    font-size: 30px;
+    margin-bottom: 10px;
+   
+}
+
+.contenedor-subtitle{
+    margin-bottom: 10px;
+}
+
+.desarrollo{
+    padding: 0px 20px;
+    margin: 10px auto 10px auto;
+    width: 900px;
+    border: 1px solid gray;
+}
+
+
+
+
+

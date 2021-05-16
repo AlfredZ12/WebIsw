@@ -1,0 +1,14 @@
+.contenedor-icon{
+    margin-left: 100px;
+   position: absolute;
+   top: 20px;
+    width: 250px;
+    height: 28.25px;
+    overflow: hidden;
+}
+
+.contenedor-icon img{
+    width: 96%;
+    object-fit: cover;
+    color:  #dddddd;
+}

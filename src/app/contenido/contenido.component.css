@@ -1,0 +1,165 @@
+:root{
+    --fondo: #A5A5A5;
+    --boton: #2E2E2E;
+    --boton_hover: #DBDBDB;
+    --boton-hover2: #545454;
+}
+
+.contenedor{
+    font-family: Verdana;
+    width:100%;
+    height: 600px;
+    margin: 0px auto 0px auto;
+    
+    background: rgb(223, 225, 228);
+    
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+/**.contenedor::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:rgba(27, 27, 27, 0.74)
+}*/
+
+.slider-contenedor{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    
+}
+
+
+.slider-move{
+    width: 100%;
+    height: 600px;
+    margin: -100px auto 0px auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    align-items: center;
+   
+
+}
+
+.slider-move a{
+    text-decoration: none;
+    color: var(--boton-hover2);
+}
+.entrada{
+   
+    width: 850px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0.3px solid var(--boton-hover2);
+    background: rgb(255, 255, 255);
+   
+}
+
+.contenedor-imagen{
+    margin: 20px auto 0px auto;
+    width: 400px;
+    height: 200px;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: transform 1s ease;
+    
+}
+
+
+
+/**.contenedor-imagen::before{
+    content:"";
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    transition: all 0.5s ease;
+    
+}
+.contenedor-imagen:hover::before{
+    content:"";
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    background:#00000073;
+}*/
+
+.contenedor-imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.right{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0);
+   top: 250px;
+   border: 1px;
+   outline: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    position: absolute;
+    right: 80px;
+}
+.right:hover{
+    background: white;
+    border: 1px solid gray;
+}
+.left:hover{
+    background: white;
+    border: 1px solid gray;
+}
+.left{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0);
+   top: 250px;
+   border: 1px;
+   outline: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    position: absolute;
+     left: 80px;  
+ }
+.contenedor-text{
+    margin: 50px 80px 0px 80px;
+    justify-content: center;
+}
+
+.contenedor p{
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+.contenedor h1{
+    height: 50px;
+    text-align: center;
+}
+
+.contenedor-title-entrada{
+    width: 100%;
+    text-align: center;
+    background: whitesmoke;
+    border-bottom: 0.1px solid gray;
+    padding-top: 15px;
+   
+}
+

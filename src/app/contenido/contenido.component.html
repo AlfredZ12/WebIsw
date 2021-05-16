@@ -1,0 +1,38 @@
+
+<div class="contenedor">
+   
+    <div class="slider-contenedor">
+
+        <div class="slider-move" *ngFor="let dato of datos">
+        <a routerLink ="/Contenido/{{dato.enlace}}" >  
+            <div class="contenedor-title-entrada">
+                <h1>{{dato.titulo}}</h1>
+             </div>
+            <div class="entrada">
+                <div class="contenedor-imagen">
+                     <img src="{{dato.url}}" > 
+                </div>
+                <div class="contenedor-text">
+                 
+                    <p>{{dato.contenido}}</p>
+                </div>
+            </div>
+        </a>
+        </div>
+    </div>
+
+    <button class="right" type="button" onClick="slidesnext();">
+        <span style="font-size: 3em; color: rgb(0, 0, 0);">
+            <i class="fas fa-chevron-right"></i>
+        </span>
+    </button>
+    <button class="left" type="reset" onClick="slidesback();">
+        <a>
+            <span style="font-size: 3em; color: rgb(0, 0, 0);">
+                <i class="fas fa-chevron-left"> </i>
+            </span>
+        </a>
+    </button>
+
+</div>
+

@@ -1,0 +1,27 @@
+[
+     {
+        "id": 0,
+        "titulo": "Metodologia SCRUM",
+        "contenido": "Scrum es un proceso en el que se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente, en equipo, y obtener el mejor resultado posible de un proyecto. Estas prácticas se apoyan unas a otras y su selección tiene origen en un estudio de la manera de trabajar de equipos altamente productivos.",
+        "fecha": "14 de Mayo del 2021",
+        "url":"./assets/images/scrum-proyectos-ti.png",
+        "enlace": "Scrum"
+    },
+     {
+        "id": 1,
+        "titulo": "Metodologia XP",
+        "contenido": "La metodología XP o Programación Extrema es una metodología ágil y flexible utilizada para la gestión de proyectos.Extreme Programming se centra en potenciar las relaciones interpersonales del equipo de desarrollo como clave del éxito mediante el trabajo en equipo, el aprendizaje continuo y el buen clima de trabajo.",
+        "fecha": "14 de Mayo del 2021",
+        "url":"./assets/images/XP.png",
+        "enlace": "Xp"
+    },
+         {
+        "id": 2,
+        "titulo": "Metodologia CASCADA",
+        "contenido": "El modelo en cascada es un proceso de desarrollo secuencial, en el que el desarrollo de software se concibe como  un conjunto de etapas que  se ejecutan una tras otra. Se le denomina así por las posiciones que ocupan las diferentes fases que componen el proyecto, colocadas una encima de otra, y siguiendo un flujo de ejecución de arriba hacia abajo, como una cascada.",
+        "fecha": "14 de Mayo del 2021",
+       
+        "url":"./assets/images/metodologia-waterfall-1.png",
+        "enlace": "Cascada"
+    }
+]
