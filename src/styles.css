@@ -171,6 +171,10 @@ Estilos de pie de pagina
    
 }
 
+.contenedor-subtitle ul li{
+    margin-left: 40px;
+}
+
 .contenedor-subtitle{
     margin-bottom: 10px;
 }
@@ -179,8 +183,74 @@ Estilos de pie de pagina
     padding: 0px 20px;
     margin: 10px auto 10px auto;
     width: 900px;
-    border: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
 }
+
+.contenedor-subtitle {
+    justify-content: center;
+}
+
+.contenedor-imagenes{
+  width: 80%;
+  height: 400px;
+  overflow: hidden;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-radius: 10px;
+
+}
+
+
+.contenedor-imagenes::before{
+    content: '';
+    width: 720px;
+    height: 400%;
+    position: absolute;
+    transition: all 1s ease;
+    background: rgba(0, 0, 0, 0.342);
+    
+}
+.contenedor-imagenes:hover::before{
+    content: '';
+    color: white;
+    text-align: center;
+    width: 720px;
+    height: 400%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+   
+}
+
+
+
+#imagenes{
+   width: 90%;
+   object-fit: cover;
+   border-radius: 5px;
+   
+}
+
+/** estilosytb*/
+
+.ytb{
+    width: 602;
+    height: 402;
+    border: 0.1px solid gray;
+    display: flex;
+    background:#2E2E2E ;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.video{
+    border-radius: 10px;
+}
+
+
 
 
 

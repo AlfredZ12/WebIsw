@@ -9,4 +9,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'proyectoisw';
   
+    
+
+  ngOnInit() {
+    const tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api"
+    document.body.appendChild(tag);
+  }
+  
 }
