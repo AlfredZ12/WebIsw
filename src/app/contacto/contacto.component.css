@@ -1,0 +1,34 @@
+
+#About{
+    position: relative;
+    margin: 80px auto; 
+    
+    width: 1000px;
+    height: auto;
+    display: block;
+    font-size: 20px;
+    /* border: 1px solid #000; */
+    color: var(--txt-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#About .contenedor-info{
+    margin-left: 30px;
+    border: 1px solid gray;
+    width: 700px;
+    height: 285px;
+    color: var(--text-color);
+    padding: 0px 5px;
+}
+
+#About .contenedor-img{
+    
+    width: 30%;
+    margin-left: 10px;
+}
+.contenedor-img img{
+    width: 100%;
+    border-radius: 10%;
+}
